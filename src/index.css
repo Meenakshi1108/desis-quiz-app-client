@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height:120vh;
+  background-image: url('/src/assets/quizbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'poppins';
+  backdrop-filter: blur(2px); /* Adjust the blur radius as needed */
+} 
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  margin-bottom: 20px; /* Add margin below the content */
+}
+
+.go-to-homepage-btn button {
+  background-color: #769FCD;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  border-color: rgb(240, 241, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.go-to-homepage-btn button:hover {
+  background-color: #769FCD;
+  border-color: azure;
+}
+
+.go-to-homepage-btn button i {
+  margin-right: 5px;
+}
+
